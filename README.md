@@ -9,5 +9,8 @@ ip = "IP Address"
 ports = range(1, 65535)
 OR ports = { 21, 22, 23, 53, 80, 135, 443, 445}
 
+# Install pyfiglet
+sudo apt install python3-pyfiglet
+
 # Usage
 python3 Portscanner.py
